@@ -5,7 +5,12 @@ function addClick(){
 }
 
 function showClick(){
-    alert(clicks);
+    if(clicks == 1){
+        alert("you clicked " + clicks + " time");
+    }
+    else{
+        alert("you clicked " + clicks + " times");
+    }
 }
 
 function resetClicks(){
