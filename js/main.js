@@ -10,4 +10,5 @@ function showClick(){
 
 function resetClicks(){
     clicks = 0;
+    alert("The click counter has been reset to 0");
 }
