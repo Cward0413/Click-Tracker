@@ -9,6 +9,10 @@ function showClick(){
 }
 
 function resetClicks(){
-    clicks = 0;
-    alert("The click counter has been reset to 0");
+    if (clicks == 0) {
+        alert("The counter is already at 0");
+    } else{
+        clicks = 0;
+        alert("The counter has been reset to 0");
+    }
 }
